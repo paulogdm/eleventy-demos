@@ -1,0 +1,32 @@
+---
+layout: main
+title: Camden Farmer's Market
+---
+
+<section class="hero">
+	<div class="hero-inner">
+		<h1>Camden Farmer's Market</h1>
+	</div>
+</section>
+
+<main>
+	<div class="content">
+	<p>
+	Welcome to Camden Farmer's Market. We are located at 311 Elmondia Falling Street, Lafayette, LA 70508.
+	</p>
+
+	<p>
+	Our hours are 7 days a week, 6AM to 4PM, except for federal and local holidays. <strong>Closed during inclement weather!</strong>
+	</p>
+
+	{% if weather.rainWarning %}
+	<p>
+		<strong>WARNING - The weather report has predicted rain and it is likely we will be closed.</strong>
+	</p>
+	{% endif %}
+
+	<span>Photo by <a href="https://unsplash.com/@gndclouds?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">William Felker</a> on <a href="https://unsplash.com/s/photos/farmers-market?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+	</div>
+</main>
+
